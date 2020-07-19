@@ -25,7 +25,7 @@
   display:flex;
 }
 
-.button{
+button{
   height: 80px;
   background-color: #900C3F ;
   border: 1px solid #FFC300;
@@ -43,7 +43,7 @@
   background-color: #581845;
 }
 
-.button:hover{
+button:hover{
   background-color:#283747;
 }
 
