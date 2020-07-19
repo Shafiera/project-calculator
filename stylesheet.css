@@ -18,5 +18,35 @@
 }
 
 .calculator-keys{
-  
+  width:100%;
+}
+
+.row{
+  display:flex;
+}
+
+.button{
+  height: 80 px;
+  background-color: #900C3F ;
+  border: 1 px solid #FFC300;
+  font-size: 32 px;
+  color: #ffffff;
+  width: 25%;
+  outline: none;
+}
+
+.all-clear, .zero-btn{
+  width:50%;
+}
+
+.operator, .equal-sign{
+  background-color: #581845;
+}
+
+.button:hover{
+  background-color:#283747;
+}
+
+.operator:hover, .equal-sign:hover{
+  background-color:#EA8820;
 }
